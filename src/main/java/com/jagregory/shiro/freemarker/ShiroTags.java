@@ -13,6 +13,7 @@ public class ShiroTags extends SimpleHash {
         put("guest", new GuestTag());
         put("hasAnyRoles", new HasAnyRolesTag());
         put("hasPermission", new HasPermissionTag());
+        put("hasAnyPermission", new HasAnyPermissionTag());
         put("hasRole", new HasRoleTag());
         put("lacksPermission", new LacksPermissionTag());
         put("lacksRole", new LacksRoleTag());
