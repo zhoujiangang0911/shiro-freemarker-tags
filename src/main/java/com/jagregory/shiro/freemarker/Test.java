@@ -34,6 +34,15 @@ public class Test {
     };
 
     public static void main(String[] args) {
+          /*
+            0 red
+            1 or
+            2 ye
+            3 blue
+            4 iron
+            5 wood
+            6 glass
+         */
         int[][] init = new int[7][3];
         int [][] max = getMaxWeight(init,ball);
         int num=0;
@@ -128,15 +137,7 @@ public class Test {
 
     public  static int[][] getWeight(int[][] max ,Ball[] balls){
 
-        /*
-            0 red
-            1 or
-            2 ye
-            3 blue
-            4 iron
-            5 wood
-            6 glass
-         */
+
         for (int i = 0; i <balls.length ; i++) {
             if(balls[i].getMaterial().equals("iron")){
                 if(max[4][2]!=0){
